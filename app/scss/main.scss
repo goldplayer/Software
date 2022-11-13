@@ -1,0 +1,19 @@
+@import './basic/fonts';
+@import './basic/grid_media';
+@import './header';
+@import './sections/first_section.scss';
+@import './sections/second_section.scss';
+@import './sections/third_section.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,ol{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1300px !important;
+}
