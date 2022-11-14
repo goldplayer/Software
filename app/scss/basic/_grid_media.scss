@@ -1,6 +1,20 @@
 // SMALL (MOBILE)
-@media (min-width:320px) and (max-width:425px){
+@media (min-width:320px) and (max-width:530px){
     .navbar_width_logo{
+        display: none !important;
+    }
+    .header{
+        .caption_block{
+            padding-top: 100px !important;
+            h1{
+                font-size: 50px !important;
+            }
+        }
+    }
+}
+
+@media (min-width:530px){
+    .header .mobile-menu {
         display: none;
     }
 }

@@ -70,3 +70,42 @@
     }
 
 }
+
+.burger_btn_menu{
+    background-color: #fff;
+    width: 20px;
+    height: 3px;
+    border: 0px solid;
+    position: relative;
+
+    &:before{
+        background-color: #fff;
+        width: 20px;
+        height: 3px;
+        border: 0px solid;
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 7px;
+    }
+    &:after{
+        background-color: #fff;
+        width: 20px;
+        height: 3px;
+        border: 0px solid;
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 14px;
+    }
+}
+
+.mobile_menu_list{
+    position: absolute;
+    left: -150px;
+  
+}
+.burger_menu_hidden{
+    transition: all 0.33 ease;
+    left: 0;
+}
